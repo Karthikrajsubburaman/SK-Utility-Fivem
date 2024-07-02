@@ -12,24 +12,12 @@ Config.starteritem = 'starter_pack'
 
 Config.item = {
    [1] = {
-      item = 'cheeseburger',
+      item = 'radio',
       count = 5
    },
    [2] = {
-      item = 'lemonade',
-      count = 5
-   },
-   [3] = {
-      item = 'evovaris',
-      count = 1
-   },
-   [4] = {
       item = 'phone',
-      count = 1
-   },
-   [5] = {
-      item = 'radio',
-      count = 1
+      count = 5
    }
 
 }
@@ -37,7 +25,7 @@ Config.item = {
 
 Config.vehicles      = {
    [1] = {
-      name = "evovaris",
+      name = "t20",
       type = "car"
    },
 }

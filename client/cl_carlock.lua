@@ -20,7 +20,7 @@ end)
 	
 		if #cars == 0 then
 		lib.notify({
-                          title = 'Xlife-Carlock',
+                          title = 'SK-Carlock',
                           description = 'No vehicles to lock nearby.',
                           type = 'warning'
                          })
@@ -61,7 +61,7 @@ end)
 							SetVehicleDoorsLocked(carstrie[i], 2)
 							PlayVehicleDoorCloseSound(carstrie[i], 1)
 									lib.notify({
-                          title = 'Xlife-Carlock',
+                          title = 'SK-Carlock',
                           description = "You have locked your " .. vehicleLabel.. "",
                           type = 'success'
                             })
@@ -80,7 +80,7 @@ end)
 							SetVehicleDoorsLocked(carstrie[i], 1)
 							PlayVehicleDoorOpenSound(carstrie[i], 0)
 								lib.notify({
-                          title = 'Xlife-Carlock',
+                          title = 'SK-Carlock',
                           description = "You have unlocked your " .. vehicleLabel.. "",
                           type = 'success'
                             })
@@ -101,7 +101,7 @@ end)
 					end
 					if notowned == #carstrie then
 					      lib.notify({
-                          title = 'Xlife-Carlock',
+                          title = 'SK-Carlock',
                           description = 'No vehicles to lock nearby.',
                           type = 'warning'
                          })

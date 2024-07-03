@@ -4,8 +4,7 @@ Config = {}
 Config.settings = {
    debug             = false,
    EnableRepairKit   = true,
-   EnableCleaningKit = true,
-   EnableXLife_Admin = false
+   EnableCleaningKit = true
 }
 
 Config.starteritem = 'starter_pack'
